@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Raphael Rodrigues Pereira | DEV</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+    <header class="header-wrapper">
+        <div class="header">
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="toggle">
+                    <label for="toggle" class="checkbox">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
+                    
+                    <div class="menu"></div>
+                    <nav class="menu-items">
+                        <ul>
+                            <li onclick="closeMenu()"><a href="#">Home</a></li>
+                            <li onclick="closeMenu()"><a href="index.html#sobre">Sobre</a></li>
+                            <li onclick="closeMenu()"><a href="index.html#projetos">Projetos</a></li>
+                            <li onclick="closeMenu()"><a href="index.html#contato">Contato</a></li>                        
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+        
+        <h1>Raphael Rodrigues Pereira</h1>
+        <h2>Analista de Sistemas</h2>
+        <div class="social-media">
+            <a href="https://linkedin.com/in/raphaelrodriguespereira" target="_blank">Linkedin</a>
+            <a href="https://github.com/raphaelrpereira" target="_blank">GitHub</a>
+        </div>
+
+    </header>
+    <main class="container">
+
+        <section id="sobre">
+            <div class="card-container section-about">
+                
+                <div class="title-about">
+                    
+                    <img src="images/raphael-perfil.jpg" id="img-about" >
+                </div>
+                
+                
+                <div class="card-text text-about">
+                    <p>
+                        Olá, eu sou <b>Raphael</b>, mineiro da cidade de Araguari, 31 anos.
+                        Sou <b>graduado em Sistemas de Informação</b> pela UNIPAC Araguari (2012). Pós-Graduando em Análise e Desenvolvimento de Sistemas. Atuo na área de TI desde os 18 anos, passando pelas áreas de suporte técnico e desenvolvimento web. 
+
+                        Tenho conhecimento em <b>PHP e JAVA</b>. Modelagem de dados em <b>MySQL e SQL Server</b>, já atuando também com <b>DB2</b>.
+                    </p>
+                    <p>
+                        Nas horas vagas gosto de ouvir as boas músicas dos anos 90, 2000 e de vez enquando me arrisco em alguns acordes no violão. Além disso, amo passar o tempo com minha família.
+                    </p>
+                </div>
+
+            </div>
+            
+        </section>
+        
+        <section id="projetos">
+            <div class="card-container">
+                <div class="card-text">
+                    Acesse o <a class="link-text" href="https://github.com/raphaelrpereira" target="_blank" >GitHub</a> para visualizar alguns projetos que já disponibilizei na plataforma.
+                </div>
+                <div class="card">
+                    <div class="card-wrapper">
+                        <h2>GitHub</h2>
+                        <p>Veja meus projetos</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-wrapper">
+                        <h2>Linkedin</h2>
+                        <p>Acompanhe minha Carreira</p>
+                    </div>
+                </div>
+                <div class="card-text">
+                    Este é meu <a class="link-text" href="https://linkedin.com/in/raphaelrodriguespereira" target="_blank">LinkedIn</a> , onde relato minhas principais experiências profissionais.
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card-text">
+                    Centro Universitário IMEPAC:
+                    <ul>
+                        <li><a class="link-text" href="https://inscricoes.imepac.edu.br/" target="_blank"> Sistema Gerenciador de Inscrições Online - PHP | Codeigniter 3 </a> </li>
+                        <li>Sistema de Gerenciamento de Prontuários Eletrônicos Ambulatoriais - PHP | Codeigniter 3</li>
+                    </ul>
+                    Hospital das Clínicas de Uberlândia:
+                    <ul>
+                        <li><a class="link-text" href="https://aplicacoes.hc.ufu.br/escala" target="_blank"> Sistema de Escalas / Frequência Online / Portal RH - JAVA | JPA | Hybernate </a> </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-wrapper">
+                        <h2>Projetos</h2>
+                        <p>PHP | JAVA | MYSQL | DB2</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+       
+    <footer class="footer" id="contato">
+        Raphael Rodrigues Pereira | Analista de Sistemas | Desenvolvimento Web
+        <p> Entre em contato: <a href="mailto:raphael.rrp90@gmail.com">raphael.rrp90@gmail.com</a> </p>
+    </footer>
+
+<script type="text/javascript">
+
+    function closeMenu(){
+        var checkbox = document.getElementById("toggle");        
+        checkbox.checked = false;                        
+    }
+
+</script>
+
+</body>
+</html>
